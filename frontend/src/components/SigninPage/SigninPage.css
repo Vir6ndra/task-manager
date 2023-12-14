@@ -1,0 +1,25 @@
+
+
+@media (max-width: 650px) {
+   .SigninPage {
+      display: block;
+    }
+    .SigninForm {
+        width: 100vw;
+
+      }
+    .board-logo{
+        height: 8rem;
+        width: 100vw;
+      }
+    
+  }
+
+.ToastContainer {
+    max-height: 0.5rem;
+    padding: 2px;
+}
+.Toastify__toast {
+    height: 0.7rem;
+    border-radius: 10px;
+  }

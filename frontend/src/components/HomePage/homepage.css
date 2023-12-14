@@ -1,0 +1,48 @@
+.pie{
+    width: 100px;
+}
+.menu-dropdown{
+    position: absolute;
+    top: auto;
+    z-index: 10;
+    width: 100%;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8rem;
+    background-color: #3f3f3f;
+    padding: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid #fffdfd;
+}
+@media (max-width:1020px) {
+    .pie-schedule-flex{
+        display: block;
+    }
+    .full-width{
+        width: 100%;
+        /* margin-left: 0px; */
+        padding: 0px;
+        /* margin-right: 0px; */
+    }
+}
+@media (max-width:850px){
+    .align-cneter{
+        width: 100%;
+        
+    }
+    .dashboard-padding{
+        padding: 0px;
+    }
+    .menu-icon{
+        display: block;
+        align-self: center;
+        height: 2rem;
+        width: 3rem;
+    }
+    .diable-user{
+        display: none;
+    }
+
+}
